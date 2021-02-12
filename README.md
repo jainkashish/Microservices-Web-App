@@ -4,12 +4,12 @@
 The basic idea of this project is to show how various microservices, each independent of each other, communicate among themselves. There are three microservices: User, Product and Like. These microservices are independent of each other, are built on different frameworks and yet are still able to communicate with each other using the messaging service - RabbitMQ.
 
 ## Requirements
-Python == 3.9.1
-Django == 3.1.4
-Flask == 1.1.2
-MySQL == 5.7.32
-Postman == 7.36.1
-Docker
+##### Python == 3.9.1
+##### Django == 3.1.4
+##### Flask == 1.1.2
+##### MySQL == 5.7.32
+##### Postman == 7.36.1
+##### Docker
 
 ## Details about the microservices
 It is a backend web application which consists of three microservices.
