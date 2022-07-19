@@ -27,21 +27,21 @@ This microservice is built on the Flask framework and is concerned with incremen
 
 #### User microservice
 There are 6 APIs made in this app:
-Get list: It lists all the users available in the database.
-Create a user: It creates a new user and feeds this information to the database.
-Retrieve user using id: It fetches the user corresponding to the given user id
-Update user: It updates the information of the user corresponding to the given user id.
-Delete user: It deletes the specified user id from the database.
-Get random user: It generates the user id of any random user.
+#### 1. Get list: It lists all the users available in the database.
+#### 2. Create a user: It creates a new user and feeds this information to the database.
+#### 3. Retrieve user using id: It fetches the user corresponding to the given user id
+#### 4. Update user: It updates the information of the user corresponding to the given user id.
+#### 5. Delete user: It deletes the specified user id from the database.
+#### 6. Get random user: It generates the user id of any random user.
 
 #### Product microservice
 There are 6 APIs made in this app:
-Get list: It lists all the products available in the database.
-Create a product: It creates a new product and feeds this information to the database.
-Retrieve product using id: It fetches the product corresponding to the given product id.
-Update product: It updates the information of the product corresponding to the given product id.
-Delete product: It deletes the specified product id from the database.
-Get random product: It generates the product id of any random product.
+#### 1. Get list: It lists all the products available in the database.
+#### 2. Create a product: It creates a new product and feeds this information to the database.
+#### 3. Retrieve product using id: It fetches the product corresponding to the given product id.
+#### 4. Update product: It updates the information of the product corresponding to the given product id.
+#### 5. Delete product: It deletes the specified product id from the database.
+#### 6. Get random product: It generates the product id of any random product.
 
 #### Likes microservice
 This app has one API called - create likes. This generates a random user id and random product id and increases the likes count corresponding to this user and product. This API communicates with the user and product microservice via RabbitMQ.
